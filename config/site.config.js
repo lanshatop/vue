@@ -7,7 +7,7 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your Vercel's environment variable 'NEXT_PUBLIC_USER_PRINCIPLE_NAME' if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'teasiu@hnyuyin.com',
+  userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'x@ncist.edu.cn',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "teasiu's OneDrive",
+  title: "SDOTP",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -38,14 +38,14 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    '本站由官网 <a href="https://ecoo.top" target="_blank" rel="noopener noreferrer">ecoo.top</a>.  ❤ 倾心制作.',
+    '本站由官网 <a href="blog.yto88.cn" target="_blank" rel="noopener noreferrer">yto88.cn</a>.  ❤ 倾心制作.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/Privatefolder', '/私人仓库'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:teasiu@163.com',
+  email: 'admin@250052.xyz',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
@@ -57,11 +57,11 @@ module.exports = {
     },
     {
       name: '官方网站',
-      link: 'https://www.ecoo.top',
+      link: '250052.xyz',
     },
     {
-      name: 'Telegram',
-      link: 'https://t.me/histb_nas',
+      name: 'blog',
+      link: 'blog.yto88.cn',
     },
   ],
 
